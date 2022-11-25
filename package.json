@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-checker",
+  "version": "1.0.0",
+  "description": "WhatsApp accounts checker",
+  "main": "wa-checker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vitaly",
+  "license": "ISC",
+  "dependencies": {
+    "whatsapp-web.js": "^1.18.3"
+  }
+}
