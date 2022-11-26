@@ -31,7 +31,7 @@ async function checkAccountList(client) {
             else {
                 notExistsStream.write(`${line}\n`);
             }
-            await new Promise(resolve => setTimeout(resolve, 1000)); // delay 1 second
+            //await new Promise(resolve => setTimeout(resolve, 1000)); // delay 1 second
         }
     }
     if (client) {
